@@ -1,0 +1,82 @@
+.cube{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-content: center;	
+}
+
+.board{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100px;	height: 100px;
+	background-color: white;
+	color: black;
+	margin: 15px;
+	padding: 5px;
+	border: 5px solid black;
+	border-radius: 20px;
+		}
+	
+.board6{
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: space-between;
+	}
+.board2{
+		justify-content: center;
+		align-content: center;
+	}
+.board3, .board1{
+		justify-content: center;
+		align-content: center;
+	}
+.board4, .board5{
+	justify-content: space-between;
+}
+.board5 .circle:nth-of-type(2){
+	justify-content: center;
+	align-self: center;
+}
+
+
+.TWOxTWO{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.deg45{
+	width: 35px;	height: 130px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: space-between;
+	transform: rotate(135deg);
+	
+	
+}	
+.circle {
+	width: 25px;
+	height: 25px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin: 4px;
+}
+
+.dotall{
+	display: flex;
+	flex-wrap: wrap;
+	width: 450px;	height: 600px;
+}
+.empty{
+	width: 120px;	height: 120px;
+	margin: 15px;
+}
+transform: rotate(135deg);
